@@ -4,7 +4,6 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import Car from './Car.js';
-import Header from './Header.js';
 
 import './my-sass.scss';
 
