@@ -8,13 +8,13 @@ function App() {
   const handlePlayVideo = () => {
     videoRef.current.play()
   }
-  
+
   const handlePauseVideo = () => {
     videoRef.current.pause()
   }
 
   return (
-    <div style={{padding: 80}}>
+    <div style={{padding: 50}}>
       <Video 
         ref={videoRef}
       />

@@ -1,7 +1,8 @@
-import {  forwardRef, useImperativeHandle,  useRef } from "react"
+import {  forwardRef, useImperativeHandle, useRef } from "react"
 import video1 from "./videos/video1.mp4"
 
 function Video(props, ref) {
+
     const videoRef = useRef()
 
     useImperativeHandle(ref, () => ({
